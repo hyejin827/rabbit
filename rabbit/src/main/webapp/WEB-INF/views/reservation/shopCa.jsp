@@ -11,7 +11,7 @@
 <section id="portfolio" class="section portfolio">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-6 portfolio-item"> <a href="work-details.html" class="portfolio-link">
+      <div class="col-sm-6 portfolio-item"> <a href="${pPath}/reservation/shop" class="portfolio-link">
         <div class="caption">
           <div class="caption-content">
             <h2>한식</h2>

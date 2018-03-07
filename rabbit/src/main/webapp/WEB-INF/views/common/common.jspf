@@ -24,3 +24,4 @@
 <script src="${rPath}/js/retina.min.js"></script> 
 <script src="${rPath}/js/modernizr.js"></script> 
 <script src="${rPath}/js/main.js"></script>
+<script src="${rPath}/js/common.js"></script>
