@@ -6,6 +6,9 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 </head>
+<script>
+$("#3").val()
+</script>
 <body>
 <!-- portfolio grid section -->
 <section id="portfolio" class="section portfolio">
@@ -18,7 +21,7 @@
             <h4>Korean Food</h4>
           </div>
         </div>
-        <img src="${rPath}/images/portfolio/work-1.jpg" class="img-responsive" alt=""> </a> </div>
+        <img src="${rPath}/images/portfolio/hansik.jpg" class="img-responsive" alt=""> </a> </div>
       <div class="col-sm-6 portfolio-item"> <a href="work-details.html" class="portfolio-link">
         <div class="caption">
           <div class="caption-content">
@@ -26,7 +29,7 @@
             <h4>Chinese Food</h4>
           </div>
         </div>
-        <img src="${rPath}/images/portfolio/work-2.jpg" class="img-responsive" alt=""> </a> </div>
+        <img src="${rPath}/images/portfolio/jungsik.jpg" class="img-responsive" alt=""> </a> </div>
       <div class="col-sm-6 portfolio-item"> <a href="work-details.html" class="portfolio-link">
         <div class="caption">
           <div class="caption-content">
@@ -42,8 +45,8 @@
             <h4>Japanese Food</h4>
           </div>
         </div>
-        <img src="${rPath}/images/portfolio/work-4.jpg" class="img-responsive" alt=""> </a> </div>
-      <div class="col-sm-6 portfolio-item"> <a href="work-details.html" class="portfolio-link">
+        <img src="${rPath}/images/portfolio/ilsik.jpg" class="img-responsive" alt=""> </a> </div>
+      <div class="col-sm-6 portfolio-item"> <a href="work-details.html" class="portfolio-link" id="3" onclick="search(id)">
         <div class="caption">
           <div class="caption-content">
             <h2>양식</h2>
