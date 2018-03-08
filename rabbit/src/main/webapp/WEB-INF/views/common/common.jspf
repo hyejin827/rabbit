@@ -3,12 +3,16 @@
     
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
-
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 
 <c:set var="root" value="${pageContext.request.contextPath}"/>
 <c:set var="rPath" value="${root}/resources"/>
 <c:set var="pPath" value="${root}/path"/>
-
+<script charset="utf-8" type="text/javascript">
+	var root = "${root}";
+	var rPath = "${rPath}";
+	var pPath = "${pPath}";
+</script>
 <!-- CSS FILES --> 
 <link rel="stylesheet" href="${rPath}/css/bootstrap.min.css">
 <link rel="stylesheet" href="${rPath}/css/flexslider.css">
